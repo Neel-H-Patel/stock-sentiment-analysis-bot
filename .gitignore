@@ -12,3 +12,7 @@ src/config.py
 data/logs/
 data/raw/
 data/processed/
+
+# Ignore temporary or system files
+*.tmp
+*.log
