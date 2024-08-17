@@ -1,1 +1,14 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment settings
+.venv
+
+# Ignore config file containing sensitive info
 src/config.py
+
+# Ignore logs and data files
+data/logs/
+data/raw/
+data/processed/
